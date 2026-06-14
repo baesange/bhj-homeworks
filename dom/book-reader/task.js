@@ -7,9 +7,9 @@ function removeFontSizeClasses() {
 
 function setActiveFont(target) {
     fontControls.forEach(control => {
-        control.classList.remove('font_size_active');
+        control.classList.remove('font-size_active');
     });
-    target.classList.add('font_size_active');
+    target.classList.add('font-size_active');
 }
 
 fontControls.forEach(control => {
